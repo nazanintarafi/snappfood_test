@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "IranSans";
+  src: url("../public/assets/fonts/IRANSans.ttf") format("truetype"),
+       url("../public/assets/fonts/IRANSans.woff") format("woff");
+}
+
+body {
+  margin: 0;
+  background-color: #f8f9fb;
+  font-family: "IranSans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

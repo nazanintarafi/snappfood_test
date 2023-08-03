@@ -1,0 +1,44 @@
+// Variables
+$primaryColor: #ff69b4;
+$secondaryColor: #fff;
+
+.HomePage {
+  display: grid;
+  place-items: center;
+  font-size: 16px;
+
+  @media (max-width: 767px) {
+    font-size: 14px;
+  }
+}
+
+.Button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: $primaryColor;
+  color: $secondaryColor;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+
+  &:visited {
+    color: $secondaryColor;
+  }
+
+  &:hover {
+    background-color: lighten($primaryColor, 15%);
+  }
+}
+
+.HomePage {
+  &__Heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  &__VendorCardsLink {
+    @extend .Button; 
+    margin-top: 20px;
+  }
+}
