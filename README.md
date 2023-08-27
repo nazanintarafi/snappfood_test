@@ -36,3 +36,19 @@ To run the project locally, use the following command:
 npm start
 
 The application will be available at `http://localhost:3000`.
+
+---
+
+## Screenshots
+
+Here are some screenshots to give you an overview of the project:
+
+### Vendor Page
+![Vendor Page - Desktop View](./screenshots/vendors.png)
+![Vendor Page - Mobile View](./screenshots/vendors_responsive01.png)
+
+The snappfood_test implements a loading state when fetching additional items, enhancing the user experience during data retrieval. Here's a screenshot demonstrating the loading state and the mechanism to fetch 10 more items:
+
+![Loading State](./screenshots/vendors_responsive.png)
+
+
